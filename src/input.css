@@ -3,10 +3,16 @@
 @tailwind utilities;
 
 @layer components {
+  .naver{
+    @apply p-4 text-center bg-[#A0C29E] font-poppins text-[#000000]
+  }
   .navlink{
     @apply text-[#000000] hover:text-[#C5D9C4] transition;
   }
   .ico{
     @apply text-[#000000] transition transform hover:text-[#C5D9C4];
+  }
+  .uber{
+    @apply 
   }
 }
