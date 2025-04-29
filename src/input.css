@@ -7,6 +7,6 @@
     @apply text-[#000000] hover:text-[#C5D9C4] transition;
   }
   .ico{
-    @apply text-[#000000] hover:text-[#C5D9C4] transition;
+    @apply text-[#000000] transition transform hover:text-[#C5D9C4];
   }
 }
