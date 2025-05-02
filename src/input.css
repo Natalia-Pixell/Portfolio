@@ -4,7 +4,7 @@
 
 @layer components {
   .naver{
-    @apply p-4 text-center bg-[#A0C29E] font-poppins text-[#000000]
+    @apply p-4 text-center bg-[#A0C29E] font-poppins text-[#000000] px-4 sm:px-8;
   }
   .navlink{
     @apply text-[#000000] hover:text-[#C5D9C4] transition;
@@ -13,6 +13,6 @@
     @apply text-[#000000] transition transform hover:text-[#C5D9C4];
   }
   .uber{
-    @apply 
+    @apply
   }
 }
