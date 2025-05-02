@@ -13,6 +13,12 @@
     @apply text-[#000000] transition transform hover:text-[#C5D9C4];
   }
   .uber{
-    @apply
+    @apply text-[#698168] text-6xl font-bold mt-20 mb-4 px-4 text-left;
+  }
+  .atext{
+    @apply w-full max-w-6xl px-4 mb-4;
+  }
+  .leb{
+    @apply bg-[#C5D9C4] rounded-xl w-full py-6 px-[4vw] max-w-6xl mb-4;
   }
 }
