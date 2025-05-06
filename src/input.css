@@ -19,6 +19,22 @@
     @apply w-full max-w-6xl px-4 mb-4;
   }
   .leb{
-    @apply bg-[#C5D9C4] rounded-xl w-full py-6 px-[4vw] max-w-6xl mb-4;
+    @apply bg-[#C5D9C4] rounded-xl w-full py-6 px-[4vw] max-w-4xl mb-4;
   }
+  .skil{
+    @apply bg-[#C5D9C4] w-full max-w-6xl p-6 mx-auto rounded-xl;
+  }
+  .spr{
+    @apply text-2xl xl:text-xl lg:text-base md:text-sm; 
+  }
+  .b1{
+    @apply mb-1 font-medium;
+  }
+  .b2{
+    @apply w-full h-4 bg-gray-200 rounded-full;
+  }
+  .b3{
+    @apply bg-[#698168] h-4 rounded-full
+  }
+  
 }
