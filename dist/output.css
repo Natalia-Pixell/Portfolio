@@ -670,6 +670,23 @@ video {
   background-color: rgb(105 129 104 / var(--tw-bg-opacity));
 }
 
+.spalte1 {
+  width: 33.333333%;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(197 217 196 / var(--tw-bg-opacity));
+  padding: 1rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.spalte2 {
+  width: 66.666667%;
+  padding: 1rem;
+  text-align: left;
+  vertical-align: top;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -693,6 +710,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
 }
 
 .grid {
@@ -749,6 +770,24 @@ video {
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.table-fixed {
+  table-layout: fixed;
+}
+
+.border-separate {
+  border-collapse: separate;
+}
+
+.border-spacing-x-16 {
+  --tw-border-spacing-x: 4rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
+.border-spacing-y-6 {
+  --tw-border-spacing-y: 1.5rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
 .grid-cols-2 {
@@ -863,6 +902,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-2xl {

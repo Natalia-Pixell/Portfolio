@@ -36,5 +36,11 @@
   .b3{
     @apply bg-[#698168] h-4 rounded-full
   }
+  .spalte1{
+    @apply bg-[#C5D9C4] rounded-xl text-left w-1/3 p-4 align-top
+  }
+  .spalte2{
+    @apply text-left w-2/3 p-4 align-top
+  }
   
 }
