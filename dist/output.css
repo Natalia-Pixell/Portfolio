@@ -671,6 +671,7 @@ video {
 }
 
 .spalte1 {
+  display: none;
   width: 33.333333%;
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
@@ -678,6 +679,12 @@ video {
   padding: 1rem;
   text-align: left;
   vertical-align: top;
+}
+
+@media (min-width: 768px) {
+  .spalte1 {
+    display: table-cell;
+  }
 }
 
 .spalte2 {
@@ -874,6 +881,10 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-6 {
